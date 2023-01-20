@@ -108,4 +108,6 @@ describe('5. Teste o componente <Pokedex.js />', () => {
     expect(screen.getByText(/snorlax/i)).toBeInTheDocument();
     expect(screen.getByText(/all/i).type);
   });
+
+  // teste
 });
