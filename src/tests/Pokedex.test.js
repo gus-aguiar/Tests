@@ -106,6 +106,6 @@ describe('5. Teste o componente <Pokedex.js />', () => {
     expect(screen.getAllByTestId(testid).length).toBe(7);
     userEvent.click(normal);
     expect(screen.getByText(/snorlax/i)).toBeInTheDocument();
-    expect(screen.getByText(/all/i).type)
+    expect(screen.getByText(/all/i).type);
   });
 });
